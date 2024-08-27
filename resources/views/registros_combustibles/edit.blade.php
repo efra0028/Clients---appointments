@@ -24,8 +24,8 @@
             </select>
         </div>
         <div class="form-group">
-            <label for="cantidad_litros">Cantidad en Litros:</label>
-            <input type="number" id="cantidad_litro" name="cantidad_litro" class="form-control" step="0.01" value="{{ $registroCombustible->cantidad_litros }}" required>
+            <label for="cantidad_litro">Cantidad en Litros:</label>
+            <input type="number" id="cantidad_litro" name="cantidad_litro" class="form-control" step="0.01" value="{{ $registroCombustible->cantidad_litro}}" required>
         </div>
         <div class="form-group">
             <label for="precio_litro">Precio por Litro:</label>

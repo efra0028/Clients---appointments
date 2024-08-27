@@ -1,7 +1,13 @@
 <?php
+
+
 use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\RegistroCombustibleController;
+use App\Http\Controllers\SupplierController;
+use App\Http\Controllers\InventoryController;
+use App\Http\Controllers\AppointmentController;
+use App\Http\Controllers\ClientController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -26,4 +32,7 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::resource('registros_combustibles', RegistroCombustibleController::class);
 
 //Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::resource('registros',RegistroCombustibleController::class);
+Route::resource('products',ProductController::class);
+
+route::resource('clients',ClientController::class);
+Route::resource('appointments', AppointmentController::class);

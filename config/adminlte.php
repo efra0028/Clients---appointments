@@ -338,7 +338,26 @@ return [
             'url'  => 'registros_combustibles',
             'icon' => 'fas fa-fw fa-lock',
         ],
-        
+        [
+            'text' => 'Proveedores',
+            'url'  => 'suppliers',
+            'icon' => 'fas fa-fw fa-lock',
+        ],
+        [
+            'text' => 'Inventarios',
+            'url'  => 'inventories',
+            'icon' => 'fas fa-fw fa-lock',
+        ],
+        [
+            'text' => 'Clientes',
+            'url'  => 'clients',
+            'icon' => 'fas fa-fw fa-lock',
+        ],
+        [
+            'text' => 'Citas',
+            'url'  => 'appointments',
+            'icon' => 'fas fa-fw fa-lock',
+        ],
         [
             'text' => 'multilevel',
             'icon' => 'fas fa-fw fa-share',
