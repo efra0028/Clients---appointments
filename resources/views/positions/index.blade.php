@@ -22,12 +22,12 @@
                     <td>{{ $position->job }}</td>
                     <td>{{ $position->description }}</td>
                     <td>
-                        <a href="{{ route('positions.show', $position) }}" class="btn btn-info btn-sm">Ver</a>
-                        <a href="{{ route('positions.edit', $position) }}" class="btn btn-warning btn-sm">Editar</a>
+                        <a href="{{ route('positions.show', $position) }}" class="btn btn-info btn-sm"><i class="fas fa-eye"></i></a>
+                        <a href="{{ route('positions.edit', $position) }}" class="btn btn-warning btn-sm"><i class="fas fa-edit"></i></a>
                         <form action="{{ route('positions.destroy', $position) }}" method="POST" style="display: inline;">
                             @csrf
                             @method('DELETE')
-                            <button type="submit" class="btn btn-danger btn-sm">Eliminar</button>
+                            <button type="submit" class="btn btn-danger btn-sm"><i class="fas fa-trash-alt"></i></button>
                         </form>
                     </td>
                 </tr>

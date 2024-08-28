@@ -22,12 +22,12 @@
                     <td>{{ $department->name }}</td>
                     <td>{{ $department->location }}</td>
                     <td>
-                        <a href="{{ route('departments.show', $department) }}" class="btn btn-info btn-sm">Ver</a>
-                        <a href="{{ route('departments.edit', $department) }}" class="btn btn-warning btn-sm">Editar</a>
+                        <a href="{{ route('departments.show', $department) }}" class="btn btn-info btn-sm"><i class="fas fa-eye"></i></a>
+                        <a href="{{ route('departments.edit', $department) }}" class="btn btn-warning btn-sm"><i class="fas fa-edit"></i></a>
                         <form action="{{ route('departments.destroy', $department) }}" method="POST" style="display: inline;">
                             @csrf
                             @method('DELETE')
-                            <button type="submit" class="btn btn-danger btn-sm">Eliminar</button>
+                            <button type="submit" class="btn btn-danger btn-sm"><i class="fas fa-trash-alt"></i></button>
                         </form>
                     </td>
                 </tr>
