@@ -329,89 +329,26 @@ return [
             'icon' => 'fas fa-fw fa-user',
         ],
         [
-            'text' => 'Productos',
-            'url' => 'products',
+            'text' => 'change_password',
+            'url' => 'admin/settings',
             'icon' => 'fas fa-fw fa-lock',
         ],
         [
-            'text' => 'Venta Combustible',
-            'url'  => 'registros_combustibles',
-            'icon' => 'fas fa-fw fa-lock',
+            'text' => 'Departamentos',
+            'url' => 'departments',
+            'icon' => 'fas fa-fw fa-user',
         ],
         [
-            'text' => 'Proveedores',
-            'url'  => 'suppliers',
-            'icon' => 'fas fa-fw fa-lock',
+            'text' => 'Cargos',
+            'url' => 'positions',
+            'icon' => 'fas fa-fw fa-user',
         ],
         [
-            'text' => 'Inventarios',
-            'url'  => 'inventories',
-            'icon' => 'fas fa-fw fa-lock',
+            'text' => 'Empleados',
+            'url' => 'employees',
+            'icon' => 'fas fa-fw fa-user',
         ],
-        [
-            'text' => 'Clientes',
-            'url'  => 'clients',
-            'icon' => 'fas fa-fw fa-lock',
-        ],
-        [
-            'text' => 'Citas',
-            'url'  => 'appointments',
-            'icon' => 'fas fa-fw fa-lock',
-        ],
-        [
-            'text' => 'multilevel',
-            'icon' => 'fas fa-fw fa-share',
-            'submenu' => [
-                [
-                    'text' => 'level_one',
-                    'url' => '#',
-                ],
-                [
-                    'text' => 'level_one',
-                    'url' => '#',
-                    'submenu' => [
-                        [
-                            'text' => 'level_two',
-                            'url' => '#',
-                        ],
-                        [
-                            'text' => 'level_two',
-                            'url' => '#',
-                            'submenu' => [
-                                [
-                                    'text' => 'level_three',
-                                    'url' => '#',
-                                ],
-                                [
-                                    'text' => 'level_three',
-                                    'url' => '#',
-                                ],
-                            ],
-                        ],
-                    ],
-                ],
-                [
-                    'text' => 'level_one',
-                    'url' => '#',
-                ],
-            ],
-        ],
-        ['header' => 'labels'],
-        [
-            'text' => 'important',
-            'icon_color' => 'red',
-            'url' => '#',
-        ],
-        [
-            'text' => 'warning',
-            'icon_color' => 'yellow',
-            'url' => '#',
-        ],
-        [
-            'text' => 'information',
-            'icon_color' => 'cyan',
-            'url' => '#',
-        ],
+       
     ],
 
     /*
