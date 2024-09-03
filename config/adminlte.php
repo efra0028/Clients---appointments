@@ -348,6 +348,21 @@ return [
             'url' => 'employees',
             'icon' => 'fas fa-fw fa-user',
         ],
+        [
+            'text' => 'Estudiantes',
+            'url' => 'estudiantes',
+            'icon' => 'fas fa-fw fa-user',
+        ],
+        [
+            'text' => 'Cursos',
+            'url' => 'cursos',
+            'icon' => 'fas fa-fw fa-user',
+        ],
+        [
+            'text' => 'Inscripciones',
+            'url' => 'registrations',
+            'icon' => 'fas fa-fw fa-user',
+        ],
        
     ],
 

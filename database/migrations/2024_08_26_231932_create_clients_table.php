@@ -20,8 +20,8 @@ return new class extends Migration
             $table->text('address')->nullable();
             $table->text('city')->nullable();
             $table->text('country')->nullable();
-            $table->date('birth_date')->nullable(); // Campo para la fecha de nacimiento
-            $table->enum('gender', ['male', 'female', 'other'])->nullable(); // Campo para el género
+            $table->date('birth_date')->nullable(); // para calcular la edad
+            $table->enum('gender', ['male', 'female', 'other'])->nullable(); 
             $table->timestamps();
         });
     }
